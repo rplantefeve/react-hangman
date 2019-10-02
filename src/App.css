@@ -7,6 +7,19 @@
   margin: auto;
 }
 
+.App-header {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.App-header > * {
+  margin: auto;
+}
+
+.App-title {
+  font-size: 24px;
+}
+
 .App-keyboard {
   display: flex;
   flex-flow: row wrap;
