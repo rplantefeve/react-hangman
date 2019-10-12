@@ -2,6 +2,7 @@
   "name": "pendu",
   "version": "0.3.0",
   "author": "rplantefeve",
+  "homepage": "https://rplantefeve.github.io/react-hangman",
   "private": true,
   "dependencies": {
     "lodash.shuffle": "^4.2.0",
@@ -14,7 +15,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "linty": "npx eslint src/**/*.js src/**/*.jsx"
+    "linty": "npx eslint src/**/*.js src/**/*.jsx",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,6 +45,7 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.14.3",
     "eslint-plugin-standard": "^4.0.1",
+    "gh-pages": "^2.1.1",
     "prettier": "1.18.2",
     "prettier-eslint": "^9.0.0"
   }
