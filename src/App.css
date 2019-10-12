@@ -40,4 +40,21 @@
 .App-button {
   width: 50px;
   height: 50px;
+  border: 0;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+button:active {
+  outline: 0;
+}
+
+button:hover {
+  background-color: bisque;
+}
+
+button::-moz-active-inner {
+  border: 0;
 }
